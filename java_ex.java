@@ -1,6 +1,6 @@
-public class HelloWorld {
- public static void main(String[] args) {
- System.out.println("Hello, World");
+
+
+System.out.println("Hello, World");
  }
 }
 public class OmskDistance {
@@ -14,7 +14,7 @@ public class OmskDistance {
         return degrees * Math.PI / 180.0;
     }
 
-    // Функция для вычисления расстояния от экватора
+
     public static double distanceFromEquator(double latitude) {
         double latitudeRadians = degreesToRadians(latitude);
         return EARTH_RADIUS * latitudeRadians;
