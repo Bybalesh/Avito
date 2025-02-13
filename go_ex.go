@@ -1,9 +1,7 @@
-package main
 
-import (
- "fmt"
- "math"
+
 )
+
 
 // Константы
 const earthRadius float64 = 6371.0 // km
@@ -14,7 +12,8 @@ func degreesToRadians(degrees float64) float64 {
  return degrees * math.Pi / 180.0
 }
 
-// Функция для вычисления расстояния от экватора
+
+
 func distanceFromEquator(latitude float64) float64 {
  latitudeRadians := degreesToRadians(latitude)
  return earthRadius * latitudeRadians
