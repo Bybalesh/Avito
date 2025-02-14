@@ -1,5 +1,3 @@
 123
 # 123
-## 123
-</13>
-#### 156454
+### `Bito-onon stood at the prow, nervously eyeing the cutters. Visits to his constituents on the island of Pag-asa, farther northwest, take him past Ayungin fairly frequently, and the mayor has had his share of run-ins. Last October, he said, a Chinese warship crossed through his convoy twice, at very high speed, nearly severing a towline connecting two boats. This past May, as the mayor’s boat neared Ayungin in the middle of the night, a Chinese patrol trained its spotlight on the boat and tailed it for an hour, until it became clear that it wasn’t headed to Ayungin. “They are becoming more aggressive,” the mayor said. “We didn’t know if they would ram us.”`
