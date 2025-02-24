@@ -101,19 +101,6 @@ node_modules/
 
 	};
 
-	var commentRule = {
-
-		pattern: /(^[ \t]*)#.*/m,
-
-		lookbehind: true,
-
-		greedy: true
-
-
-
-
-
-
 node_modules/
 /test-results/
 / Many of the following regexes will contain negated lookaheads like `[ \t]+(?![ \t])`. This is a trick to ensure
@@ -682,23 +669,6 @@ node_modules/
 
 		greedy: true
 
-	};
-
-	var commentRule = {
-
-		pattern: /(^[ \t]*)#.*/m,
-
-		lookbehind: true,
-
-		greedy: true
-
-
-
-
-
-
-node_modules/
-/test-results/
 / Many of the following regexes will contain negated lookaheads like `[ \t]+(?![ \t])`. This is a trick to ensure
 
 	// that quantifiers behave *atomically*. Atomic quantifiers are necessary to prevent exponential backtracking.
@@ -1214,26 +1184,6 @@ node_modules/
 		greedy: true
 
 	};
-
-	var commentRule = {
-
-		pattern: /(^[ \t]*)#.*/m,
-
-		lookbehind: true,
-
-		greedy: true
-
-
-
-
-
-
-node_modules/
-/test-results/
-/ Many of the following regexes will contain negated lookaheads like `[ \t]+(?![ \t])`. This is a trick to ensure
-
-	// that quantifiers behave *atomically*. Atomic quantifiers are necessary to prevent exponential backtracking.
-
 
 	var spaceAfterBackSlash = /\\[\r\n](?:\s|\\[\r\n]|#.*(?!.))*(?![\s#]|\\[\r\n])/.source;
 
