@@ -6,10 +6,7 @@
 1. Открыть редактор и создать новый проект
 2. В командной строке пишем npm init playwright для установки Playwright 
 	2.1 Выбираем JavaScript (по умолчанию — TypeScript).
-	2.2 Пишем имя  папки «Avito» 
-	2.3 Не добавляем  рабочий процесс GitHub Actions
-	2.4 Устанавливаем браузеры Playwright (по умолчанию — true)
-3. Создаем папку tests-screen
+
 4.  Создаем файл [screen.spec.js](https://github.com/Bybalesh/Avito/blob/master/tests-screen/screen.spec.js "screen.spec.js"), в котором пишем нужный нам код
 5. В командной строке пишем npm run test 
  *При этом  В **Package.json** в поле "scripts": пишем { 

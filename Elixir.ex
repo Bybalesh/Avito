@@ -3,5 +3,3 @@ defmodule HelloWorld do
     Enum.each(1..times, fn _ -> IO.puts("Hello World") end)
   end
 end
-
-HelloWorld.print_hello_world(5)
