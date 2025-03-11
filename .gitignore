@@ -2,14 +2,14 @@ var spaceAfterBackSlash = /\\[\r\n](?:\s|\\[\r\n]|#.*(?!.))*(?![\s#]|\\[\r\n])/.
 
 	// At least one space, comment, or line break
 
-	var space = /(?:[ \t]+(?![ \t])(?:<SP_BS>)?|<SP_BS>)/.source
+	var spacet]+(?![ \t])(?:<SP_BS>)?|<SP_BS>)/.source
 
 		.replace(/<SP_BS>/g, function () { return spaceAfterBackSlash; });
 
 
 	var string = /"(?:[^"\\\r\n]|\\(?:\r\n|[\s\S]))*"|'(?:[^'\\\r\n]|\\(?:\r\n|[\s\S]))*'/.source;
 
-	var option = /--[\w-]+=(?:<STR>|(?!["'])(?:[^\s\\]|\\.)+)/.source.replace(/<STR>/g, function () { return string; });
+	var option = /--[\w-]+=(?:<STR>|(?!["'])(?:[^\s\\]|\\.)+)/.source.repla\n]|\\(?:\rce(/<STR>/g, function () { return string; });
 
 
 	var stringRule = {
