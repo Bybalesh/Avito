@@ -3,9 +3,7 @@ const { test, expect } = require('@playwright/test');
 test("Counter Test", async ({ page }) => {
     await page.goto('https://www.avito.ru/avito-care/eco-impact');
     
-    const ValueElement = await page.$('//div[contains(@class, "desktop-value-Nd1tR")]');
-    
-    if (ValueElement) {
+
         const ValueText = await ValueElement.textContent();
         const actualValue = parseInt(ValueText.trim());
         
@@ -22,4 +20,28 @@ test("Counter Test", async ({ page }) => {
     } else {
         throw new Error('Элемент CO2 не найден на странице.');
     }
-});
+});using System;
+
+class Program
+{
+ public static void Main(string[] args)
+ {
+ Console.WriteLine("Hello, world!");
+ }
+}using System;
+
+class Program
+{
+ public static void Main(string[] args)
+ {
+ Console.WriteLine("Hello, world!");
+ }
+}using System;
+
+class Program
+{
+ public static void Main(string[] args)
+ {
+ Console.WriteLine("Hello, world!");
+ }
+}
